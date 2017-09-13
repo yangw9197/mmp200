@@ -1,0 +1,32 @@
+ <style type="text/css">
+         body {width:100%; font-family:times;
+               padding:1em;
+               max-width:1170px;}
+         img{width:100%;}
+         p {font-family: Georgia, serif;}
+         h1, h2, footer {text-align: center; font-family: times;}
+         nav li {display:inline;}
+         nav ul {text-align:center;}
+         a {color:#1083B6;
+             text-decoration:none;}
+         a:hover {color:#ccc;
+                text-decoration:underline;}
+         a:active{color:#F3E91F;}
+         h1 a {color:#0B3861; 
+         	   text-decoration:none;}
+         nav li{display:inline-block;
+                 margin:1px 20px; 
+                 border-right: solid 1px black; 
+                 padding-right: 40px;}
+         nav {border-top:solid 1px #000;
+              border-bottom:solid 1px #000;
+              margin-top:1em;}
+         nav li:last-child{border:none;
+                           margin-right:0;
+                           padding-right:0;}    
+         p a {text-decoration: underline;}
+         #content {margin:1em 0;
+                   padding-left:1em;
+                   padding-right: 1em;}
+                              
+ </style>
