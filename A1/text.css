@@ -1,8 +1,11 @@
- <style type="text/css">
-          body {width:100%; font-family:times;
+         body {width:100%;
+               font-family:times;
                padding:1em;
-               max-width:1170px;}
+               max-width:1170px;
+               margin: 0 auto;
+               padding-top: 0;}
          img{width:100%;}
+
          p {font-family: Georgia, serif;
              margin-right:1%;
              margin-left:1%;}
@@ -21,8 +24,15 @@
          a:hover {color:#ccc;
                 text-decoration:underline;}
          a:active{color:#F3E91F;}
+         @media (max-width: 667px){
+          nav li {display: block;
+            border-right: none;
+            border-bottom: solid 1px #000;
+            padding: 0.5em 0;
+          }
+         }
          h1 a {color:#001F4D; 
-             text-decoration:none;}
+         	   text-decoration:none;}
          nav li{display:inline-block;
                  margin:1px 20px; 
                  border-right: solid 1px black; 
@@ -36,7 +46,7 @@
          #content {margin:1em 0;
                    padding-left:1em;
                    padding-right: 1em;}
-        
+
          header { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+4,2989d8+31,2989d8+55,7db9e8+86,7db9e8+99 */
 background: rgb(30,87,153); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(30,87,153,1) 4%, rgba(41,137,216,1) 31%, rgba(41,137,216,1) 55%, rgba(125,185,232,1) 86%, rgba(125,185,232,1) 99%); /* FF3.6-15 */
@@ -44,8 +54,8 @@ background: -webkit-linear-gradient(top, rgba(30,87,153,1) 4%,rgba(41,137,216,1)
 background: linear-gradient(to bottom, rgba(30,87,153,1) 4%,rgba(41,137,216,1) 31%,rgba(41,137,216,1) 55%,rgba(125,185,232,1) 86%,rgba(125,185,232,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
                 padding:0.1em;} 
-                
-        @media (max-width:667px) {
+
+           @media (max-width:667px) {
   
            nav li{
               display:block;
@@ -54,7 +64,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
               padding: 0.5em 0;
               margin-right: 0
                    }
-                   }
-               
-                              
-</style>
+                   }     
+                            
