@@ -10,7 +10,8 @@
          h1 {font-size:40px}
          h2 {font-size:25px}
          h3 {color:#12194F;
-             margin-left:0.5%;}
+             margin-left:0.5%;
+             font-size:20px;}
          nav li {display:inline;
                   font-size:17px;}
          nav ul {text-align:center;
@@ -44,4 +45,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
                 padding:0.1em;}  
                
                               
- </style>
+</style>
