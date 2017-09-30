@@ -3,21 +3,27 @@
                                           By WenXin Yang
 
 About the festival
+
 Music
-  Various types of music will be included, such as classical music, country music, electronic music, hip-hop/rap, popular music, reggae, children’s music and easy listening. 
+
+Various types of music will be included, such as classical music, country music, electronic music, hip-hop/rap, popular music, reggae, children’s music and easy listening. 
 
 Location
-  The festival will take place nearby the beach, there are divided into indoor and outdoor venues. 
+
+The festival will take place nearby the beach, there are divided into indoor and outdoor venues. 
 
 Geographic Reach
-  The music festival has a lot of activities, so it will attract the main audience from the nation.
+
+The music festival has a lot of activities, so it will attract the main audience from the nation.
 
 
 Website purpose statement
-  This website is designed to guide the audience buy tickets more directly, letting them know where are hotels, how to go to the music festival, know festival activities and schedule and give them other help.
+
+This website is designed to guide the audience buy tickets more directly, letting them know where are hotels, how to go to the music festival, know festival activities and schedule and give them other help.
 
 
 Measurable objectives
+
 Every day of the festival has a number of nearly ten thousand people to participate in the festival, so people who do not have tickets can watch live on the website.
 
 
