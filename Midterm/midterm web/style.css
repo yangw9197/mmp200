@@ -1,0 +1,35 @@
+#menu{
+	float: right;
+}
+header img {
+	  max-width: 80%
+     }      
+
+#tickets{
+	  background-image: url();
+	}    
+#direction{
+	  background-image: url();
+	}     
+#eat{
+	  background-image: url();
+	}     
+#schedule{
+	  background-image: url();
+	}     
+#activities{
+	  background-image: url();
+	}     
+#live{
+	  background-image: url();
+	}     
+footer{
+	text-align: center;
+}						
+
+@media(min-width: 640px){
+      #menu{
+	  display:none; 
+      }
+
+}
