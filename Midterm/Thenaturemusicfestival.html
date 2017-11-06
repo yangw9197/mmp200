@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>The Nature Music Festival</title>
+    <link rel="stylesheet" href="style.css">
+     <script>
+         
+      function toggleVis(id){
+        if (document.getElementById(id).style.display=="block"){
+              document.getElementById(id).style.display="none";}
+        else {
+              document.getElementById(id).style.display="block";}
+      }
+      </script>
+      
+      <script src="https://use.fontawesome.com/257ea50967.js"></script>
+  </head>
+  <body>
+     <nav>
+          <button id="menu" onclick="toggleVis('mainNav');">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        <ul  id="mainNav">
+            <li><a href="#">Tickets</a>
+                 <ul>
+                    <li><a href="#" class="small-nav">General admission</a> </li>
+                    <li><a href="#" class="small-nav">VIP</a></li>
+                 </ul>
+            </li>    
+            <li><a href="#">Lineup</a>
+                 <ul>
+                    <li><a href="#" class="small-nav">Schedule</a></li>
+                 </ul>
+            </li>    
+            <li><a href="#">Experience</a>
+                 <ul>
+                    <li><a href="#" class="small-nav">Food & drink</a></li>
+                    <li><a href="#" class="small-nav">Activites</a></li>
+                 </ul>
+            </li>
+            <li><a href="#">INFO</a>
+                <ul>
+                     <li><a href="#" class="small-nav">FAQ</a></li>
+                     <li><a href="#" class="small-nav">Map</a></li>
+                     <li><a href="#" class="small-nav">Contact</a></li>
+                </ul>
+             </li>    
+             <li><a href="#">LIVE</a></li>
+       </ul>
+      </nav>  
+    <header>
+         <h1><img src="logo.jpg" alt="squareandmusicfestival"></h1>
+         <h2>May 10 - 12, 2018, NEW YORK, NY</h2>
+    </header>
+      
+        
+         <div id="photo">
+           <h3>SEE YOU IN 2018</h3>
+         </div>
+         <div class="row"> 
+                 
+             <div id="tickets" class="pic">
+                <button id="o">Tickets</button> 
+             </div>    
+           
+             <div id="direction" class="pic">    
+                <button id="o">Direction</button> 
+             </div>
+        </div>
+        <div class="row1"> 
+
+             <div id="eat" class="pic">
+                <button id="o">EAT</button>
+             </div>
+
+             <div id="schedule" class="pic">
+                <button id="o">Schedule</button>
+             </div>
+          
+        </div> 
+        <div class="row2"> 
+
+             <div id="activities" class="pic">    
+                <button id="o">Activities</button>   
+             </div>
+          
+             <div id="live" class="pic">    
+                <button id="o1">LIVE</button>
+             </div>
+                  
+       </div>
+        <FOOTER>
+            <a herf="#">MAP</a> | <a herf="#">HELP</a> | <a herf="#">CONRACT US</a> | <a herf="#">LANGUAGE</a> | © 2018 THE NATURE 
+        </FOOTER>
+  </body>
+</html>        

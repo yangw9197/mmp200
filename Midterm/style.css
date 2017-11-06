@@ -1,0 +1,242 @@
+#ff7207 juse
+#79b5df bule
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: helvetica;
+}
+a:hover{
+    color: #ec5e7c;
+}
+a:link{
+    color: black;
+}
+a:active{
+    color: yellow;
+}
+
+header {
+    text-align: center;
+    clear:both;   
+}
+header img {
+    max-width: 90%;  
+}
+
+h1{
+   background-image: url("backgroundtopbo.jpg");
+    
+}
+#menu{
+    background-color:transparent;
+    color:black;
+     border: none;
+    font-size:2em;
+}
+h2{
+    color: #ec5e7c;
+    font-size: 100%;
+}
+nav{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 0.1em;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    
+}
+nav ul{
+    display:none;
+    width:100%;
+    list-style-type: none;
+    
+}
+nav li{
+    border-bottom: 1px dashed;
+    padding:0.1em;
+    }
+nav li ul{ 
+    display:block;
+    }
+nav li li{
+        border:none;
+}
+
+#photo{
+    height: 320px;
+    background-image: url("seeyou2018.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    }
+h3{
+    font-size: 5em; 
+    font-family: "Bauhaus 93";
+    color: #fff;
+}
+#tickets{
+    background-image: url("tickets.jpg");
+    margin : 2em;
+}
+#direction{
+    background-image: url("direction.jpg");
+    margin : 2em;
+}
+#eat{
+    background-image: url("eat.jpg");
+    margin : 2em;
+}
+#schedule{
+    background-image: url("schedule.jpg");
+    margin : 2em;
+}
+#activities{
+    background-image: url("activities.jpg");
+    margin : 2em;
+}
+#live{
+    background-image: url("live.jpg");
+    margin : 2em;
+}
+.pic{
+    height:20em;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 0px;
+}
+
+.row{
+     
+    flex-direction: row; 
+} 
+.row1{
+    
+    flex-direction: row; 
+} 
+.row2{
+    
+    flex-direction: row; 
+}   
+#o{
+    background: linear-gradient(to bottom right,#ff8007 50%,#ff7206 0);
+    border: 0!important;
+    transition: none;
+    color: #fff;
+    font-size: 1.9em;
+}
+#o1{
+    font-size:3.6em;
+    background-color:transparent;
+    border: 0!important;
+    transition: none;
+    color: #ff7206;
+    font-weight: bold;
+}
+
+
+footer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("backgroundtopbo.jpg");
+    height: auto; 
+    color: #fff;
+    display: inline-block;
+    }						
+
+
+
+@media(min-width: 640px){
+      #menu{
+	  display:none;
+      
+          
+      }
+    .pic{
+        width: 30%;
+    }
+ 
+ nav ul {     
+        display:block;
+        text-align: center;
+    }    
+ nav {
+     height:2em;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: #79b5df;
+    }
+     
+nav li{
+        display: inline-block; 
+        border:none;
+        margin: 0em 3em;
+    }  
+    
+    
+    nav li ul{
+        display: none;
+        position: absolute;
+        width: auto;
+        background-color: #ec5e7c ;
+        text-align: left;
+        width: auto;
+    }    
+    nav li:hover ul{
+        display: block
+    }
+    nav li li{
+        display: block;
+    }
+    
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    footer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("backgroundtopbo.jpg");
+    height: 150px; 
+    }
+}
