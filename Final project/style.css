@@ -1,0 +1,55 @@
+a:hover{
+    color: #ec5e7c;
+}
+a:link{
+    color: black;
+}
+a:active{
+    color: yellow;
+}
+
+.navbar{
+    background-color: #f46161;
+}
+
+#photo{
+    height: 250px;
+    background-image: url("Oven-Fried%20Pork%20Chops.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom:1.5em;
+    }
+#Weekly{
+    background: linear-gradient(to top,#f76262 65%,#f14d4d 0);
+}
+#wr{
+    margin-top: 0.5em;
+}
+#Sushi{
+    height: 20em;
+    margin-right: 2em;
+}
+
+#pork{
+    height: 16em;
+    margin-right: 2em;
+}
+
+#PorkChops{
+     margin-top:2em;
+    background-color: #fff ;
+}
+body{
+    background-color: #fee8e8;
+}
+#soup{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
