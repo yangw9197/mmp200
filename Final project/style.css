@@ -4,6 +4,9 @@ a:hover{
 a:link{
     color: black;
 }
+a:visited{
+    color:#ec5e7c;
+}
 a:active{
     color: yellow;
 }
@@ -48,8 +51,8 @@ a:active{
 body{
     background-color: #fee8e8;
 }
+
 #soup{
     margin-top: 2em;
     margin-bottom: 2em;
-    
 }
